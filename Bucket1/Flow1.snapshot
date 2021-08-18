@@ -16,6 +16,36 @@
           "destination" : {
             "comments" : "",
             "groupId" : "b3449a1d-ffac-32f8-b8a8-7d133d72c014",
+            "id" : "a65fd0eb-5a22-3e77-9ead-ad7574744d62",
+            "name" : "SaidaOutput2",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "b3449a1d-ffac-32f8-b8a8-7d133d72c014",
+          "identifier" : "7b356b47-e79f-3df1-869b-91699d2388d4",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "b3449a1d-ffac-32f8-b8a8-7d133d72c014",
+            "id" : "eeb5040c-5bc8-37a9-8d23-9e453523341e",
+            "name" : "GenerateFlowFile2",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "b3449a1d-ffac-32f8-b8a8-7d133d72c014",
             "id" : "ac49caae-e516-3401-88a9-ec01968352cd",
             "name" : "SaidaOutput1",
             "type" : "OUTPUT_PORT"
