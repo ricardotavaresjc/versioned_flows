@@ -1,6 +1,5 @@
 flows:
-  1dbdd358-4eeb-4280-ab91-dc9e2a366cf1: {ver: 2, file: Flow1.snapshot, comments: ProcessorFlowFile
-      ligado no Output, author: anonymous, created: 1629309072327, flowName: Flow1,
-    flowDesc: ''}
+  1dbdd358-4eeb-4280-ab91-dc9e2a366cf1: {ver: 3, file: Flow1.snapshot, comments: Delete
+      de Processort, author: anonymous, created: 1629309259003, flowName: Flow1, flowDesc: ''}
 layoutVer: 1
 bucketId: df70b56d-d1d1-454b-821b-9e09bcf5a4d1
